@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>リード</title>
+  <th:block th:insert="fragments/base :: header"></th:block>
+</head>
+<body>
+  <div class="container-fluid">
+    <h4>リード</h4>
+
+    <table th:if="${leads.size > 0}" class="table">
+      <thead>
+
+      </thead>
+    </table>
+  </div>
+
+  <th:block th:insert="fragments/base :: scripts"></th:block>
+</body>
+</html>
